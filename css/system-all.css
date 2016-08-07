@@ -130,7 +130,7 @@
 	min-width: 17px;
 	padding: 0;
 	border: none;
-	background: transparent url(../images/pagination_nav.png) 50% 0 no-repeat;
+	background: transparent url(../img/pagination_nav.png) 50% 0 no-repeat;
 	box-shadow: none;
 	text-indent: 50px;
 }
@@ -156,7 +156,7 @@
 	border-bottom: 1px solid rgba(0,0,2,0.12);
 	border-left: 1px solid rgba(0,0,2,0.25);
 	border-radius: 4px;
-	background: rgba(0,0,2,0.2) url(../images/searchbox_magnifier.png) 0 50% no-repeat;
+	background: rgba(0,0,2,0.2) url(../img/searchbox_magnifier.png) 0 50% no-repeat;
 	box-shadow: 1px 1px 0 rgba(253,253,255,0.05);
 }
 
@@ -174,9 +174,9 @@
 
 #searchbox.filled button {
 	width: 25px;
-	background: url(../images/searchbox_reset.png) 50% 50% no-repeat; 
+	background: url(../img/searchbox_reset.png) 50% 50% no-repeat;
 }
-#searchbox.loading button { background: url(../images/searchbox_loader.gif) 50% 50% no-repeat; }
+#searchbox.loading button { background: url(../img/searchbox_loader.gif) 50% 50% no-repeat; }
 
 /* Drop-Down Results */
 #searchbox .results {
@@ -193,7 +193,7 @@
 
 #searchbox .results li.results-header {
 	border-bottom: 1px solid #474749;
-	background: #525254 url(../images/menu_dropdown_level1_hover.png) 0 0 repeat-x;
+	background: #525254 url(../img/menu_dropdown_level1_hover.png) 0 0 repeat-x;
 }
 #searchbox .results li.more-results { border-top: 1px solid #474749; }
 #searchbox .results li.more-results:hover {
@@ -216,7 +216,7 @@
 .breadcrumbs a,
 .breadcrumbs > span {
 	padding-right: 15px;
-	background: url(../images/breadcrumbs.png) 100% 50% no-repeat;
+	background: url(../img/breadcrumbs.png) 100% 50% no-repeat;
 }
 
 /* Author Box
@@ -270,7 +270,7 @@
 #system #comments .comment-head .author { text-shadow: 1px 1px 0 rgba(253,253,255,1.0); }
 
 /* Body */
-#system #comments ul.level1 ul { background: url(../images/comments_arrow.png) 0 0 no-repeat; }
+#system #comments ul.level1 ul { background: url(../img/comments_arrow.png) 0 0 no-repeat; }
 
 /* Respond */
 #system #respond h3 { color: #444446; }
@@ -298,5 +298,5 @@
 	box-shadow: 0 1px 0 #fff;
 	font-size: 16px;
 	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-	
+
 }

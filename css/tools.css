@@ -322,62 +322,62 @@ img.border-box { border: 1px solid #d2d2d4; }
 /* Line */
 ul.line > li {
 	border: none;
-	background: url(../images/tools/list_line.png) 0 0 repeat-x;
+	background: url(../img/tools/list_line.png) 0 0 repeat-x;
 }
 #page ul.line > li:first-child { background: none; padding-top: 5px; }
 
 /* Line Black */
-.mod-black ul.line > li { background: url(../images/tools/list_line_black.png) 0 0 repeat-x; }
+.mod-black ul.line > li { background: url(../img/tools/list_line_black.png) 0 0 repeat-x; }
 
 /* Line Color */
-.mod-color ul.line > li { background: url(../images/tools/list_line_color.png) 0 0 repeat-x; }
+.mod-color ul.line > li { background: url(../img/tools/list_line_color.png) 0 0 repeat-x; }
 
 /* Line Icon */
 ul.line-icon > li {
 	padding-left: 16px;
 	background:
-		url(../images/tools/list_line.png) 0 0 repeat-x,
-		url(../images/tools/list_line_icon.png) 0 0 no-repeat;
+		url(../img/tools/list_line.png) 0 0 repeat-x,
+		url(../img/tools/list_line_icon.png) 0 0 no-repeat;
 }
 #page ul.line-icon > li:first-child {
 	background:
 		none,
-		url(../images/tools/list_line_icon.png) 0 0 no-repeat;
+		url(../img/tools/list_line_icon.png) 0 0 no-repeat;
 }
 
 /* Line Icon Black */
 .mod-black ul.line-icon > li {
 	background:
-		url(../images/tools/list_line_black.png) 0 0 repeat-x,
-		url(../images/tools/list_line_icon_black.png) 0 0 no-repeat;
+		url(../img/tools/list_line_black.png) 0 0 repeat-x,
+		url(../img/tools/list_line_icon_black.png) 0 0 no-repeat;
 }
 #page .mod-black ul.line-icon > li:first-child {
 	background:
 		none,
-		url(../images/tools/list_line_icon_black.png) 0 0 no-repeat;
+		url(../img/tools/list_line_icon_black.png) 0 0 no-repeat;
 }
 
 /* Line Icon Color */
 .mod-color ul.line-icon > li {
 	background:
-		url(../images/tools/list_line_color.png) 0 0 repeat-x,
-		url(../images/tools/list_line_icon_color.png) 0 0 no-repeat;
+		url(../img/tools/list_line_color.png) 0 0 repeat-x,
+		url(../img/tools/list_line_icon_color.png) 0 0 no-repeat;
 }
 #page .mod-color ul.line-icon > li:first-child {
 	background:
 		none,
-		url(../images/tools/list_line_icon_color.png) 0 0 no-repeat;
+		url(../img/tools/list_line_icon_color.png) 0 0 no-repeat;
 }
 
 /* Check */
 ul.check > li {
 	padding: 4px 0 0 30px;
-	background: url(../images/tools/list_check.png) 0 0 no-repeat;
+	background: url(../img/tools/list_check.png) 0 0 no-repeat;
 }
 
-.mod-black ul.check > li { background: url(../images/tools/list_check_black.png) 0 0 no-repeat; }
+.mod-black ul.check > li { background: url(../img/tools/list_check_black.png) 0 0 no-repeat; }
 
-.mod-color ul.check > li { background: url(../images/tools/list_check_color.png) 0 0 no-repeat; }
+.mod-color ul.check > li { background: url(../img/tools/list_check_color.png) 0 0 no-repeat; }
 
 /* Zebra List and Table */
 ul.zebra > li,
@@ -392,15 +392,15 @@ table.zebra tbody tr:nth-of-type(odd) { background: #fdfdff; }
 .mod-black ul.zebra > li { border-bottom: 1px solid #262627; }
 .mod-black ul.zebra > li:first-child { border-top: 1px solid #262627; }
 .mod-black ul.zebra > li.odd,
-.mod-black ul.zebra > li:nth-of-type(odd) { background: transparent url(../images/menu_sidebar_level1_active_black.png) 0 0 repeat; }
+.mod-black ul.zebra > li:nth-of-type(odd) { background: transparent url(../img/menu_sidebar_level1_active_black.png) 0 0 repeat; }
 .mod-black ul.zebra > li.odd { background-color: #3d3d3f; }
 
 /* Module Color */
 .mod-color ul.zebra > li { border-bottom: 1px solid #fdfdff; }
 .mod-color ul.zebra > li:first-child { border-top: 1px solid #fdfdff; }
 .mod-color ul.zebra > li.odd,
-.mod-color ul.zebra > li:nth-of-type(odd) { background: transparent url(../images/menu_sidebar_level1_active_color.png) 0 0 repeat; }
-.mod-color ul.zebra > li.odd { background: transparent url(../images/menu_sidebar_level1_active_color.png) 0 0 repeat; }
+.mod-color ul.zebra > li:nth-of-type(odd) { background: transparent url(../img/menu_sidebar_level1_active_color.png) 0 0 repeat; }
+.mod-color ul.zebra > li.odd { background: transparent url(../img/menu_sidebar_level1_active_color.png) 0 0 repeat; }
 
 table.zebra {
 	border-right: 1px solid #d2d2d4;
@@ -529,7 +529,7 @@ em.box {
 }
 
 /* Dotted Horizontal Rule */
-hr.dotted { background: url(../images/tools/line_dotted.png) 0 0 repeat-x; }
+hr.dotted { background: url(../img/tools/line_dotted.png) 0 0 repeat-x; }
 
 
 /* Boxes
@@ -562,28 +562,28 @@ hr.dotted { background: url(../images/tools/line_dotted.png) 0 0 repeat-x; }
 .box-info {
 	border-color: #a1c0d0;
 	border-bottom-color: #79a0b4;
-	background: #ebf5fa url(../images/tools/box_info.png) 0 0 no-repeat;
+	background: #ebf5fa url(../img/tools/box_info.png) 0 0 no-repeat;
 	color: #1d5e80;
 }
 
 .box-warning {
 	border-color: #edb1a2;
 	border-bottom-color: #d18c7b;
-	background: #fff0eb url(../images/tools/box_warning.png) 0 0 no-repeat;
+	background: #fff0eb url(../img/tools/box_warning.png) 0 0 no-repeat;
 	color: #963e27;
 }
 
 .box-hint {
 	border-color: #e2c487;
 	border-bottom-color: #c5a35d;
-	background: #fffae6 url(../images/tools/box_hint.png) 0 0 no-repeat;
+	background: #fffae6 url(../img/tools/box_hint.png) 0 0 no-repeat;
 	color: #6a4f16;
 }
 
 .box-download {
 	border-color: #c2d685;
 	border-bottom-color: #a1b661;
-	background: #faffe6 url(../images/tools/box_download.png) 0 0 no-repeat;
+	background: #faffe6 url(../img/tools/box_download.png) 0 0 no-repeat;
 	color: #51621c;
 }
 
@@ -810,7 +810,7 @@ form.box input.button:active {
 	height: 25px;
 	float: left;
 	overflow: hidden;
-	background: url(../images/tools/icons_social.png) 0 0 no-repeat;
+	background: url(../img/tools/icons_social.png) 0 0 no-repeat;
 	text-indent: 50px;
 }
 

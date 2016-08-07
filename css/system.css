@@ -708,7 +708,7 @@
 	border-bottom: 1px solid rgba(0,0,2,0.12);
 	border-left: 1px solid rgba(0,0,2,0.25);
 	border-radius: 4px;
-	background: rgba(0,0,2,0.2) url(../images/searchbox_magnifier.png) 0 50% no-repeat;
+	background: rgba(0,0,2,0.2) url(../img/searchbox_magnifier.png) 0 50% no-repeat;
 	box-shadow: 1px 1px 0 rgba(253,253,255,0.05);
 }
 
@@ -726,9 +726,9 @@
 
 #searchbox.filled button {
 	width: 25px;
-	background: url(../images/searchbox_reset.png) 50% 50% no-repeat;
+	background: url(../img/box_reset.png) 50% 50% no-repeat;
 }
-#searchbox.loading button { background: url(../images/searchbox_loader.gif) 50% 50% no-repeat; }
+#searchbox.loading button { background: url(../img/box_loader.gif) 50% 50% no-repeat; }
 
 /* Drop-Down Results */
 #searchbox .results {
