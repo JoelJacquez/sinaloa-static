@@ -1,0 +1,72 @@
+body {
+	/*position: relative;*/
+	/*min-height: 100%; top: 0px;*/
+	background: red;
+}
+
+.wrapper {
+	max-width: 980px;
+}
+
+#sidebar-b {
+	width: 245px;
+}
+
+#maininner {
+	width: 735px;
+}
+
+#menu .dropdown {
+	width: 250px;
+}
+
+#menu .columns2 {
+	width: 500px;
+}
+
+#menu .columns3 {
+	width: 750px;
+}
+
+#menu .columns4 {
+	width: 1000px;
+}
+.item-enlaces-externos {
+	color: #ff6600;
+	font-size: 10pt;
+}
+.naranja {
+	color: #ff6600;
+}
+/* RESPONSIVE
+========================================================================= /
+
+Tablets en horizonal y escritorios normales
+------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+	body {
+		background: red;
+	}
+}
+/*@media (min-width: 768px) and (max-width: 1199px) {
+	body {
+		background: red;
+	}
+}
+
+/*/ Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- /*/
+@media (max-width: 767px) {
+	body {
+		background: red;
+	}
+}
+
+/* Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+	body {
+		background: red;
+	}
+}*/
